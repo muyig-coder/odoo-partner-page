@@ -30,10 +30,9 @@ nav{background:#fff;border-bottom:1px solid var(--border);padding:14px 24px;posi
 .nav-logo-text span{color:#e63946}
 
 /* HERO */
-.hero{background:linear-gradient(140deg,#2a1927 0%,#714B67 60%,#8a6080 100%);color:#fff;padding:110px 20px 0;text-align:center}
-.hero-content{padding-bottom:0}
-.hero-img-wrap{margin-top:48px;width:100%;max-width:500px;margin-left:auto;margin-right:auto;overflow:hidden;border-radius:16px 16px 0 0}
-.hero-img-wrap img{width:100%;display:block;object-fit:cover;object-position:top}
+.hero{background:linear-gradient(140deg,#2a1927 0%,#714B67 60%,#8a6080 100%);color:#fff;padding:110px 20px 90px;text-align:center;position:relative;overflow:hidden}
+.hero-left-img{position:absolute;bottom:0;left:0;width:auto;height:55%;pointer-events:none;z-index:1;opacity:.95}
+.hero-content{position:relative;z-index:2}
 .hero-badge{display:inline-block;background:rgba(255,255,255,.11);border:1px solid rgba(255,255,255,.22);border-radius:50px;padding:6px 20px;font-size:12px;margin-bottom:28px;letter-spacing:.8px}
 .hero h1{font-size:clamp(26px,5vw,50px);font-weight:700;line-height:1.2;margin-bottom:20px}
 .hero h1 em{color:var(--acc);font-style:normal}
@@ -136,7 +135,7 @@ footer span{color:var(--p)}
 <nav>
   <div class="nav-logo">
     <img src="https://raw.githubusercontent.com/muyig-coder/odoo-partner-page/main/odoooo.webp" alt="Odoo" style="height:30px;width:30px;object-fit:contain"/>
-    <div class="nav-logo-text">Odoo <span>Türkiye</span></div>
+    <div class="nav-logo-text">Odoo <svg width="20" height="14" viewBox="0 0 20 14" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;vertical-align:middle;margin-left:2px"><rect width="20" height="14" rx="2" fill="#E30A17"/><circle cx="7.5" cy="7" r="3.2" fill="white"/><circle cx="8.8" cy="7" r="2.5" fill="#E30A17"/><polygon points="11.2,7 12.2,4.2 13.1,7 10.6,5.3 13.8,5.3" fill="white"/></svg></div>
   </div>
   <a href="https://calendar.app.google/KhAAjpXrWSgPR3y16" target="_blank" class="btn btn-primary" style="padding:10px 20px;font-size:13px">Görüşme Talep Et</a>
 </nav>
